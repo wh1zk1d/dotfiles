@@ -3,9 +3,8 @@ alias ..="cd.."
 
 # Quick access to my projects. Can be used like
 # $ work
-# to simply navigate to work directory
-# or
-# $ work web
-# to navigate to the web directory in 'work'
-work () { cd ~/dev/work/$@ fixed args; }
-personal () { cd ~/dev/personal/$@ fixed args; }
+alias work="cd ~/dev/work"
+alias personal="cd ~/dev/personal"
+
+# Get local IP
+alias local-ip="ipconfig getifaddr en0"
