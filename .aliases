@@ -8,3 +8,6 @@ alias personal="cd ~/dev/personal"
 
 # Get local IP
 alias local-ip="ipconfig getifaddr en0"
+
+# Check if some APIs are online
+alias check-uptime="node ~/dev/personal/uptime-checker/app.js"
