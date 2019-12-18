@@ -12,5 +12,11 @@ alias local-ip="ipconfig getifaddr en0"
 # Check if some APIs are online
 alias check-uptime="node ~/dev/personal/uptime-checker/app.js"
 
-# Open dev.to in Firefox
+# Open /r/webdev and dev.to in Firefox
 alias start-day="open -a firefox -g https://dev.to"
+
+# Restart Control Strip (Catalina Bug)
+alias restart-control-strip="killall ControlStrip"
+
+# Go to htdocs directory (MAMP)
+alias htdocs="cd /Applications/MAMP/htdocs"
