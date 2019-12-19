@@ -12,8 +12,8 @@ alias local-ip="ipconfig getifaddr en0"
 # Check if some APIs are online
 alias check-uptime="node ~/dev/personal/uptime-checker/app.js"
 
-# Open /r/webdev and dev.to in Firefox
-alias start-day="open -a firefox -g https://dev.to"
+# Open /r/webdev and dev.to in Chrome
+alias start-day="open -a 'Google Chrome' https://dev.to https://reddit.com/r/webdev"
 
 # Restart Control Strip (Catalina Bug)
 alias restart-control-strip="killall ControlStrip"
