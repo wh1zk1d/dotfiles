@@ -22,4 +22,4 @@ alias restart-control-strip="killall ControlStrip"
 alias htdocs="cd /Applications/MAMP/htdocs"
 
 # Scrape daily text & display it right in the terminal
-alias daily-text="node ~/dev/personal/daily-text/index.js"
+alias daily-text="SITE=URL_HERE node ~/dev/personal/daily-text/index.js"
