@@ -23,3 +23,7 @@ alias htdocs="cd /Applications/MAMP/htdocs"
 
 # Scrape daily text & display it right in the terminal
 alias daily-text="SITE=URL_HERE node ~/dev/personal/daily-text/index.js"
+
+# GIT ALIASES
+alias gac="git add . && git commit -m" # + commit message
+alias gp="git push" # + remote & branch name
