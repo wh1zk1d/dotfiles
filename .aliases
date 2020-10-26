@@ -28,3 +28,6 @@ alias daily-text="SITE=URL_HERE node ~/dev/personal/daily-text/index.js"
 alias gac="git add . && git commit -m" # + commit message
 alias gp="git push" # + remote & branch name
 alias gcb="git checkout" # + branch name
+
+# Create React App
+alias new-react="npx create-react-app --use-npm" # + name of dir
